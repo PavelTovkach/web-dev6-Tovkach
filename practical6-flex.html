@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Layout</title>
+    <link rel="stylesheet" href="styles.css">
+	<style>
+	body {
+	     background-color: beige;
+	}
+
+	</style>
+</head>
+<body>
+    <header>
+        <h1>Top News</h1>
+        <div class="top-news">
+            <img src="top_news_image.jpg" alt="Top News Image" class="top-image">
+            <div class="content">
+                <h2>Breaking News Headline</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <button>Read More</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="news-section">
+        <h2>Latest News</h2>
+        <div class="news-preview">
+            <img src="news_image_1.png" alt="News Image 1" class="small-image">
+            <div class="content">
+                <h3>News Headline 1</h3>
+                <p class="meta-info">Published on January 1, 2024</p>
+                <p class="excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <button>Read More</button>
+            </div>
+        </div>
+
+        <div class="news-preview">
+            <img src="news_image_2.jpg" alt="News Image 2" class="small-image">
+            <div class="content">
+                <h3>News Headline 2</h3>
+                <p class="meta-info">Published on January 2, 2024</p>
+                <p class="excerpt">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <button>Read More</button>
+            </div>
+        </div>
+
+        <div class="news-preview">
+            <img src="news_image_3.jpg" alt="News Image 3" class="small-image">
+            <div class="content">
+                <h3>News Headline 3</h3>
+                <p class="meta-info">Published on January 3, 2024</p>
+                <p class="excerpt">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <button>Read More</button>
+            </div>
+        </div>
+    </section>
+
+    <aside>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="registration">
+            <h2>Register</h2>
+            <form>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+                <button type="submit">Register</button>
+            </form>
+        </div>
+    </aside>
+</body>
+</html>
